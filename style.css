@@ -1,6 +1,6 @@
 body, html {
   height: 100vh;   
-  background-color: rgb(222, 245, 255);
+  background-color: rgb(255, 222, 229);
   font-family: 'Roboto Condensed',sans-serif;
 }
 p{
@@ -25,7 +25,7 @@ main {
 
 /* Navbar stuff */
 .navbar-light .navbar-nav .nav-link {
-  color: rgb(192, 112, 216);
+  color: palevioletred
 }
 
 /* White Underline Animation */
@@ -51,7 +51,7 @@ main {
 }
 
 a.nav-link {
-  color: #ffffff00;
+  color: #fff
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
@@ -89,7 +89,7 @@ a.nav-link:hover::after {
   border: 3px;
   border-width: 5px;
   border-color: black;
-  background-color: rgb(222, 245, 255);
+  background-color: rgb(211, 131, 131);
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
@@ -100,7 +100,7 @@ a.nav-link:hover::after {
 
 h1 {
   font-size: 60px;
-  color:rgb(192, 112, 216);
+  color:rgb(80, 0, 16);
 }
 
 footer {
@@ -108,7 +108,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(192, 112, 216);
 }
 
 /* Icons spacing */
